@@ -9,8 +9,8 @@ if [ -z "$ENV" ]; then
   exit 1
 fi
 
-ORG="urgencesante"   # <== ton compte ou ton organisation Docker Hub en dur
-IMAGE="${ORG}/mealAppApi-${ENV}"
+ORG="alexandredelesse"   # <== ton compte ou ton organisation Docker Hub en dur
+IMAGE="${ORG}/meal-app-api-${ENV}"
 
 echo "==> Build $IMAGE"
 docker build -t "$IMAGE" .
