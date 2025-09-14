@@ -1,0 +1,6 @@
+@MealPrep_HostAddress = http://localhost:5272
+
+GET {{MealPrep_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
